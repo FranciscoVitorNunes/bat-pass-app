@@ -1,13 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Text, Pressable, View } from 'react-native';
 
 import { styles } from './BatButtonStyles';
+import { BatTextInput } from '../BatTextInput/BatTextInput';
+
+
 
 export function BatButton() {
+
+    const [pass, setPass] = useState("")
+
+    const handlePass = () =>{
+        setPass("olá")
+    }
+
   return (
-    <View style={styles.container}>
+    <>
+        <BatTextInput pass={pass}></BatTextInput>
         <Pressable
-            onPress={()=>{console.log("presionado...")}}
+            onPress={handlePass}
+            style={styles.button}
         >
             <Text 
                 style={styles.text}
@@ -16,11 +28,12 @@ export function BatButton() {
 
         <Pressable
             onPress={()=>{console.log("presionado...")}}
+            style={styles.button}
         >
             <Text
                 style={styles.text}
             >Copiar</Text>
         </Pressable>
-    </View>
+    </>
   );
 }

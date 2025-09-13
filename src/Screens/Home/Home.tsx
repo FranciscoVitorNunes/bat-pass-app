@@ -13,9 +13,8 @@ export function Home() {
         <BatLogo></BatLogo>
       </View>
       <View style={styles.textInputContainer}>
-        <BatTextInput></BatTextInput>
+        <BatButton></BatButton>
       </View>
-      <BatButton></BatButton>
     </View>
   );
 }
