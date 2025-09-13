@@ -6,6 +6,6 @@ export const styles = StyleSheet.create({
     fontSize: 27,
     fontWeight: 'bold',
     color: '#E5BF3C',
-    marginBottom: 20
+    marginBottom: 5
   }
 });
