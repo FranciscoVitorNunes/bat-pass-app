@@ -15,8 +15,13 @@ export const styles = StyleSheet.create({
     borderWidth: 2,
     width: "100%",
     backgroundColor:"#4D4D4D",
-    marginBottom: 20,
+    marginBottom: 40,
     paddingTop: 20,
     paddingBottom: 20,
+  },
+  textInputContainer: {
+    width:"80%",
+    alignItems: "center",
+    flexDirection: "column",
   }
 });

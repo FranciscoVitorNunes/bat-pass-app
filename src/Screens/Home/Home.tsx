@@ -11,7 +11,7 @@ export function Home() {
       <View style={styles.logoContainer}>
         <BatLogo></BatLogo>
       </View>
-      <View>
+      <View style={styles.textInputContainer}>
         <BatTextInput></BatTextInput>
       </View>
     </View>
