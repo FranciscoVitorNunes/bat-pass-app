@@ -1,13 +1,17 @@
 import React from 'react';
-import { View,Text, StatusBar } from 'react-native';
+import { View } from 'react-native';
 
 import { styles } from './Style';
+import { BatLogo } from '../../Components/Logo/BatLogo';
 
 export function Home() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar />
+      <View>
+        <BatLogo>
+
+        </BatLogo>
+      </View>
     </View>
   );
 }
