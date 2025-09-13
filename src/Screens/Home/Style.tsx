@@ -23,5 +23,6 @@ export const styles = StyleSheet.create({
     width:"80%",
     alignItems: "center",
     flexDirection: "column",
+    marginBottom: 40
   }
 });
