@@ -6,11 +6,9 @@ import { BatLogo } from '../../Components/Logo/BatLogo';
 
 export function Home() {
   return (
-    <View style={styles.container}>
-      <View>
-        <BatLogo>
-
-        </BatLogo>
+    <View style={styles.appContainer}>
+      <View style={styles.logoContainer}>
+        <BatLogo></BatLogo>
       </View>
     </View>
   );

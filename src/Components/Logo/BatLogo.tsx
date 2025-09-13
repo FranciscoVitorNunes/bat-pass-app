@@ -10,7 +10,7 @@ export function BatLogo() {
         <Text style={styles.text}>Bat Password App</Text>
         <Image
           source={batLogo}
-          style={{width: 100, height: 100, alignSelf: 'center'}}
+          style={{width: 180, height: 100, alignSelf: 'center'}}
         />
     </>
   );
